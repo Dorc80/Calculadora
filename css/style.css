@@ -1,0 +1,46 @@
+* {
+    font-size: 50px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#calculator {
+    background-color: #222222;
+    margin-top: 40px;
+    padding: 0.5em;
+    width: 7em;
+}
+
+#calculator .row button {
+    border-radius: 50%;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.operator {
+    background-color: #f19235;
+}
+
+#display {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+#calculator .row #equals {
+    width: 100%;
+    border-radius: 37px;
+}
+
+.row {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.row:last-child {
+    margin-bottom: 0;
+}
